@@ -46,8 +46,8 @@ Backend API: (https://ai-resume-checker-xfzx.onrender.com/)
 ## ⚙️ Installation (Local Setup)
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Harshit-Tripathi-28/ai-resume-checker.git
+cd ai-resume-checker
 pip install -r requirements.txt
 python app.py
 ```
@@ -67,4 +67,5 @@ python app.py
 
 Harshit Tripathi  
 B.Tech CSE-AI Student  
+
 
