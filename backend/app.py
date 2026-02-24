@@ -20,7 +20,9 @@ def calculate_match(resume_text, job_desc):
     common = resume_words.intersection(job_words)
     score = (len(common) / len(job_words)) * 100 if job_words else 0
     return round(score, 2)
-
+@app.route("/")
+def home():
+    return "AI Resume Matcher Backend is Running 🚀"
 @app.route("/match", methods=["POST"])
 def match():
     file = request.files["resume"]
