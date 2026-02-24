@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import PyPDF2
-
+import os
 app = Flask(__name__)
 
 # Proper CORS configuration
@@ -33,7 +33,7 @@ def match():
 
     return jsonify({"match_score": score})
 
-import os
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
