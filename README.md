@@ -3,8 +3,8 @@
 An AI-powered web application that analyzes the similarity between a candidate's resume and a job description and calculates a match percentage.
 
 ## 🌐 Live Demo
-Frontend: https://your-vercel-link.vercel.app  
-Backend API: https://your-render-link.onrender.com  
+Frontend: (https://ai-resume-checker-xi-wheat.vercel.app/)
+Backend API: (https://ai-resume-checker-xfzx.onrender.com/)
 
 ---
 
@@ -66,4 +66,5 @@ python app.py
 ## 👨‍💻 Author
 
 Harshit Tripathi  
-B.Tech CSE Student  
+B.Tech CSE-AI Student  
+
