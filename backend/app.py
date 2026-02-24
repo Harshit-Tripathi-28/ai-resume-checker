@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Proper CORS configuration
-CORS(app, origins=["http://127.0.0.1:5500", "http://localhost:5500"])
+CORS(app)
 
 def extract_text_from_pdf(file):
     reader = PyPDF2.PdfReader(file)
