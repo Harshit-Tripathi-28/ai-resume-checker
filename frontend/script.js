@@ -11,7 +11,7 @@ async function matchResume() {
     formData.append("resume", fileInput);
     formData.append("job_description", jobDesc);
 
-    const response = await fetch("http://localhost:5000/match", {
+    const response = await fetch("https://ai-resume-checker-xfzx.onrender.com/match", {
         method: "POST",
         body: formData
     });
